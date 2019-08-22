@@ -12,6 +12,7 @@
 		BADC9705230EBDC500C977B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC9703230EBDC500C977B9 /* Main.storyboard */; };
 		BADC9707230EBDC600C977B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADC9706230EBDC600C977B9 /* Assets.xcassets */; };
 		BADC970A230EBDC600C977B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC9708230EBDC600C977B9 /* LaunchScreen.storyboard */; };
+		BADC9712230ECCC200C977B9 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC9711230ECCC200C977B9 /* CustomCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BADC9706230EBDC600C977B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADC9709230EBDC600C977B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADC970B230EBDC600C977B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADC9711230ECCC200C977B9 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BADC9706230EBDC600C977B9 /* Assets.xcassets */,
 				BADC9708230EBDC600C977B9 /* LaunchScreen.storyboard */,
 				BADC970B230EBDC600C977B9 /* Info.plist */,
+				BADC9711230ECCC200C977B9 /* CustomCollectionView.swift */,
 			);
 			path = UICollectionView;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADC9712230ECCC200C977B9 /* CustomCollectionView.swift in Sources */,
 				BADC9702230EBDC500C977B9 /* ViewController.swift in Sources */,
 				BADC9700230EBDC500C977B9 /* AppDelegate.swift in Sources */,
 			);
